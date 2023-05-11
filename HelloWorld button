@@ -1,0 +1,12 @@
+<hmtl>
+    <head>
+        <h1 style="text-align:center;"> This is the heading</h1>
+    </head>
+    <body>
+        <p id='p1'style="text-align:center;"> This is a paragraph</br>
+        This is another paragraph</p>
+        <button type='button'
+        onclick="document.getElementById('p1').innerHTML='HelloWorld';">
+        click me</button>
+    </body>
+</hmtl>
